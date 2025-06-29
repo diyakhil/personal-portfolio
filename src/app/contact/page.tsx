@@ -1,7 +1,7 @@
 import React from "react";
 import { Format } from "../components/Format";
 
-export const Contact = () => {
+export default function Contact() {
   return (
     <Format>
       <div className="flex items-center justify-center h-96 text-6xl">
@@ -9,6 +9,4 @@ export const Contact = () => {
       </div>
     </Format>
   );
-};
-
-export default Contact;
+}

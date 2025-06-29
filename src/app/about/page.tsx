@@ -15,7 +15,7 @@ const montserrat = Montserrat({
   weight: ["400", "700"],
 });
 
-export const AboutPage = () => {
+export default function AboutPage() {
   return (
     <Format
       bgColor="bg-[#d06224]"
@@ -67,6 +67,4 @@ export const AboutPage = () => {
       </div>
     </Format>
   );
-};
-
-export default AboutPage;
+}

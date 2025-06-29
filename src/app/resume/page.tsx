@@ -9,7 +9,7 @@ const cedarville_Cursive = Cedarville_Cursive({
   weight: "400",
 });
 
-export const Resume = () => {
+export default function Resume() {
   return (
     <Format>
       <div className="flex p-12">
@@ -87,6 +87,4 @@ export const Resume = () => {
       </div>
     </Format>
   );
-};
-
-export default Resume;
+}
