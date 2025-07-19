@@ -5,6 +5,8 @@ export async function POST(req) {
   //instead .json() and some other methods give access to the body directly
   //this is why we do req.json() instead of req.body'
   let data;
+
+  //have to wrap this in try catch otherwise errors out on first load - have to investigate this
   try {
     data = await req.json();
   } catch (err) {
@@ -23,7 +25,7 @@ export async function POST(req) {
     await transporter.sendMail({
       from: data.email,
       to: process.env.EMAIL_USER,
-      subject: `Email from ${data.name}`,
+      subject: `Email from ${data.name} <${data.email}>`,
       text: data.message,
       html: `<p>${data.message}</p>`,
     });
