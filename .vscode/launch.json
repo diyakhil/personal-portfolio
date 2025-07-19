@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "attach",
+      "name": "Next.js: Debug Server-side",
+      "port": 9229,
+      "cwd": "/Users/diyakhilnani/Documents/personal_projects/my-website/src",
+      "sourceMaps": true
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Next.js: Debug Full Stack",
+      "configurations": ["Next.js: Debug Server-side"]
+    }
+  ]
+}

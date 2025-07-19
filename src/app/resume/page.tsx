@@ -28,7 +28,7 @@ export default function Resume() {
             undertones.
           </div>
           <div className="text-xl font-bold uppercase pt-4">
-            Associate SOftware engineer
+            Software engineer I
           </div>
           <div className="flex flex-row gap-x-8">
             <div className={`${cedarville_Cursive.className} text-lg`}>
