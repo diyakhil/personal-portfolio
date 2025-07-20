@@ -26,21 +26,19 @@ export default function PersonalProjects() {
 
       <div className="flex flex-row gap-x-12 px-32 py-12">
         <div className="w-1/3">
-          <div className="flex flex-col gap-y-8">
-            <div className="pl-4">
-              <a
-                href="https://github.com/diyakhil/personal-portfolio"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src={noodles}
-                  height={250}
-                  width={300}
-                  alt="noodles"
-                ></Image>
-              </a>
-            </div>
+          <div className="flex flex-col gap-y-8 justify-center items-center">
+            <a
+              href="https://github.com/diyakhil/personal-portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src={noodles}
+                height={250}
+                width={300}
+                alt="noodles"
+              ></Image>
+            </a>
             <p
               className={`${montserrat.className} uppercase font-bold text-2xl text-center`}
             >
