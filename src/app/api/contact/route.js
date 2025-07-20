@@ -23,7 +23,7 @@ export async function POST(req) {
 
   try {
     await transporter.sendMail({
-      from: data.email,
+      from: process.env.EMAIL_USER,
       to: process.env.EMAIL_USER,
       subject: `Email from ${data.name} <${data.email}>`,
       text: data.message,
