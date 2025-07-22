@@ -23,8 +23,8 @@ export const Format = ({
       <main
         className={
           !!bgColor && !!textColor
-            ? `h-screen ${bgColor} ${textColor} pt-8`
-            : `h-screen bg-[#4f6815] text-[#f0e6da] pt-8`
+            ? `h-[calc(100vh-64px)] ${bgColor} ${textColor} pt-8`
+            : `h-[calc(100vh-64px)] bg-[#4f6815] text-[#f0e6da] pt-8`
         }
       >
         {children}
