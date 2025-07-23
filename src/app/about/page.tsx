@@ -24,35 +24,37 @@ export default function AboutPage() {
       font={sarina}
     >
       <div>
-        <div className="flex">
-          <div className="w-2/3 pl-20">
-            <div className="flex gap-x-2">
-              <div>
+        <div className="flex flex-col sm:flex-row">
+          <div className="w-full sm:w-2/3 px-4">
+            <div className="flex flex-col sm:flex-row sm:gap-x-2">
+              <div className="sm:pl-20">
                 <Image
                   src={profileImage}
                   width={600}
                   height={700}
                   alt="profileImage"
+                  className="w-full max-w-[300px] sm:max-w-none h-auto"
                 />
               </div>
-              <div className="flex items-end">
+              <div className="hidden sm:block flex items-end">
                 <Image
                   src={diyaImage}
                   width={350}
                   height={300}
                   alt="diyaImage"
+                  className="w-full max-w-[200px] sm:max-w-none h-auto"
                 />
               </div>
             </div>
           </div>
-          <div className="w-1/3 pr-8">
+          <div className="w-full sm:w-1/3 px-4 sm:pr-8">
             <div
-              className={`uppercase font-bold ${montserrat.className} text-4xl text-[#75070c] text-center pt-8`}
+              className={`uppercase font-bold ${montserrat.className} text-2xl sm:text-4xl text-[#75070c] text-center pt-4 sm:pt-8`}
             >
               about me
             </div>
             <div
-              className={`uppercase ${montserrat.className} p-8 text-lg text-center`}
+              className={`uppercase ${montserrat.className} p-4 sm:p-8 text-base sm:text-lg text-center`}
             >
               Hi, I'm Diya Khilnani. Alongside my passion for computer science,
               food has always been a big part of my life — which inspired this
