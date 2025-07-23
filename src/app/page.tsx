@@ -18,9 +18,9 @@ const montserrat = Montserrat({
 export default function Home() {
   return (
     <Format>
-      <div className="flex">
-        <div className="flex w-2/3 pt-8">
-          <div className="flex flex-col w-1/4 gap-y-44">
+      <div className="flex flex-col md:flex-row px-4 md:px-0">
+        <div className="flex flex-col md:flex-row w-full md:w-2/3 pt-4 md:pt-8">
+          <div className="flex flex-col w-1/4 gap-y-44 hidden md:flex">
             <div>
               <Image
                 src={saladBowl}
@@ -39,12 +39,12 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className="flex w-3/4 card">
+          <div className="flex w-full md:w-3/4 card">
             <div className="card-body items-center text-center">
-              <div className="w-96 flex flex-col space-y-8">
-                <div className="flex gap-2">
+              <div className="w-full max-w-sm md:w-96 flex flex-col space-y-4 md:space-y-8">
+                <div className="flex flex-col md:flex-row gap-1 md:gap-2">
                   <span
-                    className={`${montserrat.className} uppercase pl-8 font-bold`}
+                    className={`${montserrat.className} uppercase font-bold`}
                   >
                     You're invited to a
                   </span>
@@ -59,14 +59,16 @@ export default function Home() {
                 </div>
 
                 <span
-                  className={`${montserrat.className} uppercase text-5xl font-bold`}
+                  className={`${montserrat.className} uppercase text-3xl md:text-5xl font-bold`}
                 >
                   Dinner Party!
                 </span>
 
-                <span className={`${cedarville_Cursive.className} text-lg`}>
+                <span
+                  className={`${cedarville_Cursive.className} text-lg px-2 md:px-0`}
+                >
                   On the table: passion projects, tech stacks, and some secret
-                  ingredients I’ve picked up over the years.
+                  ingredients I've picked up over the years.
                 </span>
 
                 <div className="flex flex-col space-y-2">
@@ -88,40 +90,40 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex w-1/3 pt-16">
-          <div className="flex flex-col space-y-8">
+        <div className="w-full md:w-1/3 pt-8 md:pt-16">
+          <div className="flex flex-col space-y-4 md:space-y-8">
             <Link
               href="about/"
-              className={`flex-auto w-96 btn btn-xl bg-[#f0e6da] text-[#4f6815] text-xl ${cedarville_Cursive.className} py-12 rounded-none`}
+              className={`w-full max-w-sm mx-auto md:max-w-none md:w-96 btn btn-xl bg-[#f0e6da] text-[#4f6815] text-xl ${cedarville_Cursive.className} py-8 md:py-12 rounded-none`}
             >
-              <div className="w-72 flex flex-col space-y-1">
+              <div className="w-full md:w-72 flex flex-col space-y-1">
                 <div>About the Host</div>
                 <div>( me )</div>
               </div>
             </Link>
             <Link
               href="personal-projects/"
-              className={`flex-auto w-96 btn btn-xl bg-[#f0e6da] text-[#4f6815] text-xl ${cedarville_Cursive.className} py-12 rounded-none`}
+              className={`w-full max-w-sm mx-auto md:max-w-none md:w-96 btn btn-xl bg-[#f0e6da] text-[#4f6815] text-xl ${cedarville_Cursive.className} py-8 md:py-12 rounded-none`}
             >
-              <div className="w-72 flex flex-col space-y-1">
+              <div className="w-full md:w-72 flex flex-col space-y-1">
                 <div>The Menu</div>
                 <div>( personal projects )</div>
               </div>
             </Link>
             <Link
               href="resume/"
-              className={`flex-auto w-96 btn btn-xl bg-[#f0e6da] text-[#4f6815] text-xl ${cedarville_Cursive.className} py-12 rounded-none`}
+              className={`w-full max-w-sm mx-auto md:max-w-none md:w-96 btn btn-xl bg-[#f0e6da] text-[#4f6815] text-xl ${cedarville_Cursive.className} py-8 md:py-12 rounded-none`}
             >
-              <div className="w-72 flex flex-col space-y-1">
+              <div className="w-full md:w-72 flex flex-col space-y-1">
                 <div>Wine List</div>
                 <div>( resume )</div>
               </div>
             </Link>
             <Link
               href="contact/"
-              className={`flex-auto w-96 btn btn-xl bg-[#f0e6da] text-[#4f6815] text-xl ${cedarville_Cursive.className} py-12 rounded-none`}
+              className={`w-full max-w-sm mx-auto md:max-w-none md:w-96 btn btn-xl bg-[#f0e6da] text-[#4f6815] text-xl ${cedarville_Cursive.className} py-8 md:py-12 rounded-none`}
             >
-              <div className="w-72 flex flex-col space-y-1">
+              <div className="w-full md:w-72 flex flex-col space-y-1">
                 <div>Guest Book</div>
                 <div>( contact )</div>
               </div>
