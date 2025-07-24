@@ -23,8 +23,8 @@ export const Format = ({
       <main
         className={
           !!bgColor && !!textColor
-            ? `w-full min-h-[calc(100vh-20px)] md:h-[calc(100vh-104px)] ${bgColor} ${textColor} pt-8`
-            : `w-full min-h-[calc(100vh-20px)] md:h-[calc(100vh-104px)] bg-[#4f6815] text-[#f0e6da] pt-8`
+            ? `min-h-[calc(100vh-104px)] ${bgColor} ${textColor} pt-8`
+            : `min-h-[calc(100vh-104px)] bg-[#4f6815] text-[#f0e6da] pt-8`
         }
       >
         {children}
