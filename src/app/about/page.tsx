@@ -30,9 +30,9 @@ export default function AboutPage() {
               <div>
                 <Image
                   src={profileImage}
-                  width={500}
-                  height={583}
-                  className="sm:w-[600px] sm:h-[700px]"
+                  width={600}
+                  height={600}
+                  className="sm:w-[600px] sm:h-[600px]"
                   alt="profileImage"
                 />
               </div>
