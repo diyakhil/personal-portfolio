@@ -19,13 +19,13 @@ export default function PersonalProjects() {
   return (
     <Format>
       <p
-        className={`${montserrat.className} flex items-center justify-center text-5xl uppercase font-bold pt-8`}
+        className={`${montserrat.className} flex items-center justify-center text-3xl sm:text-5xl uppercase font-bold pt-8`}
       >
         The Menu
       </p>
 
-      <div className="flex flex-row gap-x-12 px-32 py-12">
-        <div className="w-1/3">
+      <div className="flex flex-col sm:flex-row gap-y-8 sm:gap-x-12 px-8 sm:px-32 py-12">
+        <div className="w-full sm:w-1/3">
           <div className="flex flex-col gap-y-8 justify-center items-center">
             <a
               href="https://github.com/diyakhil/personal-portfolio"
@@ -34,19 +34,20 @@ export default function PersonalProjects() {
             >
               <Image
                 src={noodles}
-                height={250}
-                width={300}
+                height={200}
+                width={240}
+                className="sm:h-[250px] sm:w-[300px]"
                 alt="noodles"
               ></Image>
             </a>
             <p
-              className={`${montserrat.className} uppercase font-bold text-2xl text-center`}
+              className={`${montserrat.className} uppercase font-bold text-xl sm:text-2xl text-center`}
             >
               Portfolio Website
             </p>
 
             <p
-              className={`${cedarville_Cursive.className} text-xl text-center`}
+              className={`${cedarville_Cursive.className} text-lg sm:text-xl text-center px-4 sm:px-0`}
             >
               This site showcases my resume, personal projects (starting here!),
               and how to get in touch. More to come as I grow my portfolio.
