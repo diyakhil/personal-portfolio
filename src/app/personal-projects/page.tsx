@@ -28,7 +28,7 @@ export default function PersonalProjects() {
         <div className="w-full sm:w-1/3">
           <div className="flex flex-col gap-y-8 justify-center items-center">
             <a
-              href="https://github.com/diyakhil/personal-portfolio"
+              href="https://github.com/diyakhil/googlemaps-mcp-server"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -43,14 +43,14 @@ export default function PersonalProjects() {
             <p
               className={`${montserrat.className} uppercase font-bold text-xl sm:text-2xl text-center`}
             >
-              Portfolio Website
+              AI Driver Agent Bot
             </p>
 
             <p
               className={`${cedarville_Cursive.className} text-lg sm:text-xl text-center px-4 sm:px-0`}
             >
-              This site showcases my resume, personal projects (starting here!),
-              and how to get in touch. More to come as I grow my portfolio.
+              An AI agent that provides driver assistance using voice to text,
+              powered by an MCP server integrated with Google Maps API .
             </p>
           </div>
         </div>
