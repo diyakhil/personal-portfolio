@@ -99,7 +99,7 @@ export default function Resume() {
           </div>
           <div className="text-lg md:text-xl font-bold uppercase pt-8 text-center md:text-left">
             <a
-              href="/Diya-Khilnani-Resume.pdf"
+              href="/Diya_Khilnani_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
