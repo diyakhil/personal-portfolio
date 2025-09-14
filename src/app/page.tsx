@@ -92,11 +92,11 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-full md:w-1/3 pt-8 md:pt-16 xl:pt-16">
+        <div className="w-full md:w-1/3 md:pt-16 xl:pt-16">
           <div className="flex flex-col space-y-4 md:space-y-8 xl:space-y-16 xl:max-w-lg">
             <Link
               href="about/"
-              className={`w-full max-w-sm mx-auto md:max-w-none md:w-96 btn btn-xl bg-[#f0e6da] text-[#4f6815] text-xl ${cedarville_Cursive.className} py-8 md:py-12 rounded-none xl:py-8 xl:w-full`}
+              className={`w-full max-w-sm mx-auto md:max-w-none md:w-96 btn btn-xl h-20 bg-[#f0e6da] text-[#4f6815] text-xl ${cedarville_Cursive.className} py-8 md:py-12 rounded-none xl:py-8 xl:w-full`}
             >
               <div className="w-full md:w-72 flex flex-col space-y-1 xl:w-full">
                 <div>About the Host</div>
@@ -105,7 +105,7 @@ export default function Home() {
             </Link>
             <Link
               href="personal-projects/"
-              className={`w-full max-w-sm mx-auto md:max-w-none md:w-96 btn btn-xl bg-[#f0e6da] text-[#4f6815] text-xl ${cedarville_Cursive.className} py-8 md:py-12 rounded-none xl:py-8 xl:w-full`}
+              className={`w-full max-w-sm mx-auto md:max-w-none md:w-96 btn btn-xl h-20 bg-[#f0e6da] text-[#4f6815] text-xl ${cedarville_Cursive.className} py-8 md:py-12 rounded-none xl:py-8 xl:w-full`}
             >
               <div className="w-full md:w-72 flex flex-col space-y-1 xl:w-full">
                 <div>The Menu</div>
@@ -114,7 +114,7 @@ export default function Home() {
             </Link>
             <Link
               href="resume/"
-              className={`w-full max-w-sm mx-auto md:max-w-none md:w-96 btn btn-xl bg-[#f0e6da] text-[#4f6815] text-xl ${cedarville_Cursive.className} py-8 md:py-12 rounded-none xl:py-8 xl:w-full`}
+              className={`w-full max-w-sm mx-auto md:max-w-none md:w-96 btn btn-xl h-20 bg-[#f0e6da] text-[#4f6815] text-xl ${cedarville_Cursive.className} py-8 md:py-12 rounded-none xl:py-8 xl:w-full`}
             >
               <div className="w-full md:w-72 flex flex-col space-y-1 xl:w-full">
                 <div>Wine List</div>
@@ -123,7 +123,7 @@ export default function Home() {
             </Link>
             <Link
               href="contact/"
-              className={`w-full max-w-sm mx-auto md:max-w-none md:w-96 btn btn-xl bg-[#f0e6da] text-[#4f6815] text-xl ${cedarville_Cursive.className} py-8 md:py-12 rounded-none xl:py-8 xl:w-full`}
+              className={`w-full max-w-sm mx-auto md:max-w-none md:w-96 btn btn-xl h-20 bg-[#f0e6da] text-[#4f6815] text-xl ${cedarville_Cursive.className} py-8 md:py-12 rounded-none xl:py-8 xl:w-full`}
             >
               <div className="w-full md:w-72 flex flex-col space-y-1 xl:w-full">
                 <div>Guest Book</div>
