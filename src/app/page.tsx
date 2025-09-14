@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <Format>
       <div className="flex flex-col md:flex-row px-4 md:px-0 xl:max-w-[100rem] xl:mx-auto xl:px-8 xl:py-8">
-        <div className="flex flex-col md:flex-row w-full md:w-2/3 pt-4 md:pt-8">
+        <div className="flex flex-col md:flex-row w-full md:w-2/3 pt-4">
           <div className="flex flex-col w-1/4 gap-y-44 hidden md:flex xl:gap-y-32">
             <div>
               <Image
@@ -92,8 +92,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-full md:w-1/3 md:pt-16 xl:pt-16">
-          <div className="flex flex-col space-y-4 md:space-y-8 xl:space-y-16 xl:max-w-lg">
+        <div className="w-full md:w-1/3">
+          <div className="flex flex-col space-y-4 md:space-y-8 xl:space-y-16 xl:max-w-lg pt-4">
             <Link
               href="about/"
               className={`w-full max-w-sm mx-auto md:max-w-none md:w-96 btn btn-xl h-20 bg-[#f0e6da] text-[#4f6815] text-xl ${cedarville_Cursive.className} py-8 md:py-12 rounded-none xl:py-8 xl:w-full`}
