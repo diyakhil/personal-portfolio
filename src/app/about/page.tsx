@@ -23,22 +23,22 @@ export default function AboutPage() {
       headerColor="bg-[#75070c]"
       font={sarina}
     >
-      <div>
-        <div className="flex flex-col sm:flex-row">
-          <div className="w-full sm:w-2/3 flex justify-center sm:justify-start sm:pl-20">
-            <div className="flex gap-x-2">
+      <div className="xl:max-w-[100rem] xl:mx-auto xl:px-8 xl:py-8">
+        <div className="flex flex-col sm:flex-row xl:gap-8">
+          <div className="w-full sm:w-2/3 flex justify-center sm:justify-start sm:pl-20 xl:pl-12 xl:w-3/5">
+            <div className="flex gap-x-2 xl:gap-x-4">
               <div>
                 <Image
                   src={profileImage}
                   width={600}
                   height={600}
-                  className="sm:w-[600px] sm:h-[600px]"
+                  className="sm:w-[600px] sm:h-[600px] xl:w-[500px] xl:h-[500px]"
                   alt="profileImage"
                 />
               </div>
               <div className="flex items-end">
                 <Image
-                  className="hidden sm:block"
+                  className="hidden sm:block xl:w-[280px] xl:h-[240px]"
                   src={diyaImage}
                   width={350}
                   height={300}
@@ -47,14 +47,14 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
-          <div className="w-full sm:w-1/3 px-4 sm:pr-8 sm:px-0">
+          <div className="w-full sm:w-1/3 px-4 sm:pr-8 sm:px-0 xl:w-2/5 xl:px-0 xl:pr-0">
             <div
-              className={`uppercase font-bold ${montserrat.className} text-4xl sm:text-3xl md:text-4xl text-[#75070c] text-center pt-8`}
+              className={`uppercase font-bold ${montserrat.className} text-4xl sm:text-3xl md:text-4xl xl:text-3xl text-[#75070c] text-center pt-8 xl:pt-12`}
             >
               about me
             </div>
             <div
-              className={`uppercase ${montserrat.className} p-8 text-xl sm:text-sm md:text-lg text-center`}
+              className={`uppercase ${montserrat.className} p-8 xl:p-6 text-xl sm:text-sm md:text-lg xl:text-base text-center xl:leading-relaxed`}
             >
               Hi, I'm Diya Khilnani. Alongside my passion for computer science,
               food has always been a big part of my life — which inspired this

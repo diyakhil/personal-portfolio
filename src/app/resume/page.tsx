@@ -12,13 +12,13 @@ const cedarville_Cursive = Cedarville_Cursive({
 export default function Resume() {
   return (
     <Format>
-      <div className="flex flex-col md:flex-row p-4 md:p-12">
-        <div className="w-full md:w-1/3 flex justify-center md:justify-start mb-8 md:mb-0">
+      <div className="flex flex-col md:flex-row p-4 md:p-12 xl:max-w-[100rem] xl:mx-auto xl:px-12">
+        <div className="w-full md:w-1/3 flex justify-center md:justify-start mb-8 md:mb-0 xl:w-2/5">
           <Image
             src={wineBottle}
             height={400}
             width={240}
-            className="md:h-[630px] md:w-[375px]"
+            className="md:h-[630px] md:w-[375px] xl:h-[500px] xl:w-[300px]"
             alt="wineBottle"
           ></Image>
         </div>
